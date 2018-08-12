@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_website_address"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextWebsite"
+        android:text="@string/example_website"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/open_website"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnOpenWebsite"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_city_for_search"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCity"
+        android:text="@string/example_city"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/show_the_city"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnShowTheCity"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_longitude"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLongnitude"
+        android:inputType="numberDecimal"
+        android:text="@string/example_longnitude"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_latitude"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLatitude"
+        android:inputType="numberDecimal"
+        android:text="@string/example_latitude"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/show_the_location"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnShowTheLocation"/>
+
+</LinearLayout>

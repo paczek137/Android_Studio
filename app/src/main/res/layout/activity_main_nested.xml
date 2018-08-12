@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:text="Setting 1"
+                android:id="@+id/checkBox"
+                android:layout_column="0"
+                android:checked="false"/>
+
+            <CheckBox
+                android:text="Setting 2"
+                android:id="@+id/checkBox2"
+                android:layout_column="1"
+                android:checked="false"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:text="Setting 3"
+                android:id="@+id/checkBox3"
+                android:layout_column="0"
+                android:checked="false"/>
+
+            <CheckBox
+                android:text="Setting 4"
+                android:id="@+id/checkBox4"
+                android:layout_column="1"
+                android:checked="false"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tableLayout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:id="@+id/button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/button2"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

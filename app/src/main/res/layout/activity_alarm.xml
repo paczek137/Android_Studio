@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<Button
+    android:text="@string/set_the_alarm"
+    style="@style/ButtonPaczek"
+    android:background="@drawable/gradient"
+    android:onClick="OnSetTheAlarm"
+    android:id="@+id/buttonAlarm"/>
+
+<Button
+    android:text="@string/set_the_timer"
+    style="@style/ButtonPaczek"
+    android:background="@drawable/gradient"
+    android:onClick="OnSetTheTimer"
+    android:id="@+id/buttonTimer"/>
+
+</LinearLayout>

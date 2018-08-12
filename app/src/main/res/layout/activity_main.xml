@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d94c4c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/first_activity"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="@string/dialog"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnDialogWindow"/>
+
+    <Button
+        android:text="@string/switch_activity"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnSwitchActivity"/>
+
+    <Button
+        android:text="@string/maps"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnMaps"/>
+
+    <Button
+        android:text="@string/alarm"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnAlarm"/>
+
+    <Button
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnFragments"
+        android:text="@string/fragments" />
+
+    <Button
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnNotifications"
+        android:text="@string/notifications" />
+
+    <Button
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnUIComponents"
+        android:text="@string/ui_components" />
+
+</LinearLayout>
