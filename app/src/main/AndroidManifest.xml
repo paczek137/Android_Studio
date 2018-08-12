@@ -55,6 +55,15 @@
         <activity
             android:name=".AutoCompleteActivity"
             android:label="Auto Complete Activity" />
+        <activity
+            android:name=".ListViewActivity"
+            android:label="List View Activity" />
+        <activity
+            android:name=".ListView2Activity"
+            android:label="List view 2 Activity" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="Spinner Activity" />
     </application>
 
 </manifest>

@@ -54,6 +54,10 @@
     <string name="click">Click</string>
     <string name="orientation">Orientation</string>
     <string name="auto_complete">Auto complete</string>
+    <string name="list_view">List View</string>
+    <string name="list_view_2">List View 2</string>
+    <string name="show_selected_items">Show selected items</string>
+    <string name="spinner">Spinner</string>
 
     <string-array name="voivodeships">
         <item>Greater Poland</item>

@@ -26,4 +26,25 @@
         android:onClick="OnAutoComplete"
         android:id="@+id/buttonAutoComplete"/>
 
+    <Button
+        android:text="@string/list_view"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnListview"
+        android:id="@+id/buttonListView"/>
+
+    <Button
+        android:text="@string/list_view_2"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnListview2"
+        android:id="@+id/buttonListView2"/>
+
+    <Button
+        android:text="@string/spinner"
+        style="@style/ButtonPaczek"
+        android:background="@drawable/gradient"
+        android:onClick="OnSpinner"
+        android:id="@+id/buttonSpinner"/>
+
 </LinearLayout>

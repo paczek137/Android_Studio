@@ -8,7 +8,7 @@ import android.widget.MultiAutoCompleteTextView;
 
 public class AutoCompleteActivity extends AppCompatActivity {
 
-    public String[] voivodeships;
+    private static String[] voivodeships;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
